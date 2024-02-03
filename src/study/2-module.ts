@@ -84,3 +84,5 @@ console.log(strings); // ['d','c','b','a']
 function lengthOfObject<T extends { length: number }>(obj: T): number {
   return obj.length;
 }
+
+lengthOfObject({ name: "Earth", length: 10 });

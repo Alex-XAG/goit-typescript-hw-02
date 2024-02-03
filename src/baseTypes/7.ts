@@ -12,8 +12,12 @@ enum Weekdays {
   Sun = 1,
 }
 function isWeekend(data: Weekdays): boolean {
-  if (data === 0) {
-    return false;
-  }
-  return true;
+  return data === 0 ? false : true;
+
+  // if (data === 0) {
+  //   return false;
+  // }
+  // return true;
 }
+
+// const isWeekendArrow = (data: Weekdays): boolean => (data === 0 ? false : true);
